@@ -1,0 +1,57 @@
+
+body {
+  height: 100vh;
+  background-image: url("road.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  padding-bottom: 45px;
+  border-radius: 15px;
+  display: flex;
+  box-shadow: rgb(78, 70, 70)
+}
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+  width: 40%;
+}
+.input-field, .msg {
+  width: 60%;
+}
+.input-fields .input, .msg textarea {
+  margin: 15px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid  rgb(230, 225, 225);
+  padding: 0px;
+  color: rgb(230, 225, 225);
+  width: 100%;
+}
+.msg textarea {
+  height: 83%;
+}
+.msg button {
+  background: rgb(2, 78, 34);
+  text-align: center;
+  padding: 0px;
+  border-radius: 5px;
+  color:rgb(230, 225, 225);
+  cursor: pointer;
+  width: 175px;
+  height: 35px;
+  text-transform:uppercase;
+}
